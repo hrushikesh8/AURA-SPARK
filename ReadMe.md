@@ -2,13 +2,25 @@
 
 **Your Intelligent AI Companion for the Web.**
 
+![Aura Spark Banner](https://via.placeholder.com/1200x300?text=Aura+Spark+AI+Extension)
+*(Optional: Replace this link with a banner image if you have one)*
+
 Aura Spark is a powerful, lightweight Chrome/Edge extension that transforms how you interact with text on the internet. It acts as a **Smart Head-Up Display (HUD)**, giving you instant definitions, pronunciations, synonyms, and code explanations without ever leaving your current tab.
 
 Built with **JavaScript** and powered by the **Groq API (Llama 3)**.
 
 ---
 
-## 🚀 Features
+## 📸 See It in Action
+
+| **Smart Dictionary** | **Code Explanation** |
+|:---:|:---:|
+| ![Dictionary View](https://via.placeholder.com/400x200?text=Upload+Your+Dictionary+Screenshot) | ![Code View](https://via.placeholder.com/400x200?text=Upload+Your+Code+Screenshot) |
+| *Instant definitions with phonetics* | *AI explaining complex logic* |
+
+---
+
+## 🚀 Key Features
 
 ### 📖 Smart Dictionary
 Select any word to instantly see its **definition**, **syllable breakdown**, and **phonetics**.
@@ -78,19 +90,39 @@ self.GROQ_API_KEY = "gsk_YOUR_ACTUAL_API_KEY_HERE";
 
 ---
 
+## 🔮 Roadmap (Future Plans)
+
+We are constantly improving Aura Spark. Here is what's coming next:
+
+* [ ] **Context Awareness:** Understanding the whole sentence, not just the word.
+* [ ] **Translation Mode:** Instant translation to 30+ languages.
+* [ ] **Summarizer:** Select a paragraph and get a TL;DR summary.
+* [ ] **PDF Support:** Making Aura work inside PDF viewers.
+
+---
+
+## ❓ Troubleshooting
+
+**"Error: Network Error"**
+
+* Check your internet connection.
+* Ensure your API Key in `src/secrets.js` is correct and has no extra spaces.
+* Verify you have credits/quota on your Groq account.
+
+**"Extension Error" (Red Icon)**
+
+* Go to `edge://extensions`.
+* Click the **Errors** button on the card to see details.
+* Usually, reloading the extension (Circular Arrow Icon) fixes this.
+
+---
+
 ## 🏗️ Tech Stack
 
 * **Frontend**: Vanilla JavaScript (No heavy frameworks).
 * **Backend**: Groq API (Model: `llama-3.3-70b-versatile`).
 * **Speech**: Web Speech API (`SpeechSynthesis`).
 * **Styling**: Custom CSS (Glassmorphism & Clean UI).
-
----
-
-## 🛡️ Privacy & Security
-
-* **Local Execution**: Your API key stays on your machine (`secrets.js`) and is never uploaded to GitHub.
-* **No Tracking**: This extension does not track your browsing history. It only processes the text you explicitly select.
 
 ---
 
@@ -103,5 +135,7 @@ self.GROQ_API_KEY = "gsk_YOUR_ACTUAL_API_KEY_HERE";
 ---
 
 *License: MIT*
+
+```
 
 ```
