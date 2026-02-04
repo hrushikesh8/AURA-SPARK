@@ -1,4 +1,2 @@
-icon16.png
-icon48.png
-icon128.png
+# Ignore the secrets file which may contain sensitive information
 src/secrets.ts
